@@ -12,10 +12,6 @@
   margin-right: auto;
 }
 
-.search {
-  display: none;
-}
-
 .page_logo {
   display: flex;
   flex-grow: 1;
@@ -27,6 +23,25 @@
 .header_line {
   width: 100%;
   border-top: 0.01rem solid grey;
+}
+
+/* SEARCH/SEARCH ROW  */
+
+.search {
+  display: flex;
+  cursor: pointer;
+}
+
+.search_row_container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.search_row_input {
+  width: 30%;
+  padding: 0.5rem;
 }
 
 /* NAV */
@@ -97,25 +112,6 @@
   .search {
     margin-right: 0.8rem;
     font-size: 2rem;
-  }
-
-  /* SEARCH/SEARCH ROW */
-
-  .search {
-    display: flex;
-    cursor: pointer;
-  }
-
-  .search_row_container {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  .search_row_input {
-    width: 30%;
-    padding: 0.5rem;
   }
   
   .page_logo {

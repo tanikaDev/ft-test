@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Financial Times Test
 
-## Getting Started
+This project is a mini recreation of the Financial Times website, that allows users to search FT headlines.
 
-First, run the development server:
+The project layout similar to FT homepage (upto the 4th row of articles) The usage is also similar with the user being able to search headlines by clicking the search icon and an input field dropping down for users to type search terms for the FT api. 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+12 articles display per page with pagination at the bottom allowing users to easily see how many pages there are and the ability to click through them.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Optional Requirements
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Four of the optional requirements have been put in place
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Be responsive 
+- Have pagination
+- Deployed to heroku
+- Have similar look and feel as ft.com
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+##Future Improvements 
 
-## Learn More
+- Create pages for links.
+- Get lower res images to optimise loading time.
+- Hamburger menu to work as official site
+- Add market stats at top of page- if further api access is permitted.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- HTML
+- CSS
+- Javascript
+- Next.js
+- React
