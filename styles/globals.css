@@ -1,9 +1,19 @@
+:root {
+  --ft-beige: #f2dfce;
+  --text-accent: #b24865;
+  --text-light: rgb(99, 98, 98);
+  --text-faint: #cfddeb;
+  --grid-blue: #0f5499;
+  --grey-light: #ccc1b7;
+  --grey-dark: #262a33;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -13,4 +23,12 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
+
+/* header {
+  margin-left: auto;
+  margin-right: auto;
+} */
+
