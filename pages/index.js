@@ -107,5 +107,3 @@ export async function getServerSideProps(context) {
 //   return article
   
 // });
-
-// on serverside fetch 
