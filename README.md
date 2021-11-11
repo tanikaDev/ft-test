@@ -34,6 +34,8 @@ Four of the optional requirements have been put in place
 
 Assuming your project is in a folder named "Project" on your Desktop.
 
-cd ~/desktop/Project
-npm install
-npm run dev
+```
+$ cd ~/desktop/Project
+$ npm install
+$ npm run dev
+```
